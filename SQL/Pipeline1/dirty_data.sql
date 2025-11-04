@@ -11,11 +11,10 @@ INSERT INTO Stores (StoreName, Location, Contact) VALUES
 -- duplicates, inconsistent casing, abbreviated streets
 INSERT INTO Vendors (VendorName, Address, ContactPerson) VALUES
                                                              ('Fresh Foods GmbH', 'Friedrichstraße 10, 14467 Potsdam', 'Anna Schmidt'),
-                                                             ('fresh foods gmbh', 'Friedrichstr. 10, Potsdam', 'A. Schmidt'),
+                                                             ('Fresh Foods GmbH (alt)', 'Friedrichstr. 10, Potsdam', 'A. Schmidt'),
                                                              ('Tech & Gadgets AG', 'Alexanderplatz 3, 10178 Berlin', 'Markus Weber'),
                                                              ('Tech and Gadgets AG', 'Alexanderplatz 3 Berlin', 'M. Weber'),
                                                              ('BULK IMPORTS ltd.', 'Industrial Area, Warehouse 5', 'unknown');
-
 
 
 -- duplicates, weird descriptions, missing vendor, bad spacing
