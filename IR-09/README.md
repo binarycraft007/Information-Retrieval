@@ -12,6 +12,7 @@ You have a folder ``docs`` containing ``doc1.txt`` ... `doc4.txt` (the aliens/sw
   - the command(s) you used
   - the resulting document IDs (D1..D4 or filenames)
   - a 1–2 sentence explanation of the Boolean logic
+  - the incidence matrix (terms × documents) that justifies your answer
 
 ### Questions:
 1. Return all documents that mention `aliens` OR `swords`
